@@ -1,13 +1,19 @@
 #include <stdio.h>
 
 int main(){
+	/*
+		deklarasi variabel char untuk karakter yang nantinya akan di inputkan dan
+		int untuk penanda kebenaran statment.
+	*/
 	char ka, kb, kc;
 	int x, y, z;
 	x = 0, y = 0, z = 0;
 	
+	// meminta users untuk memasukan tiga karakter sesuai dengan syarat.
 	printf("Masukan tiga karakter (dengan syarat urutan konsonan vokal konsonan):\n");
 	scanf("%c %c %c", &ka, &kb, &kc);
 	
+	// memberi tanda jika yang di masukan oleh users sudah benar.
 	if((ka != 'a') && (ka != 'i') && (ka != 'u') && (ka != 'e') && (ka != 'o')){
 		x = 1;
 	}
@@ -18,6 +24,7 @@ int main(){
 		z = 1;
 	}	
 
+	//cek terakhir untuk memberikan kesimpulan.
 	if((x == 1) && (y == 1) && (z == 1)){
 		printf("memenuhi syarat\n");
 	}else{
@@ -26,3 +33,7 @@ int main(){
 
 	return 0;
 }
+
+/*
+	membuat program yang mengecek urutan penulisan.
+*/
