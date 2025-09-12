@@ -11,7 +11,7 @@ int main(){
 	
 	// meminta users untuk memasukan tiga karakter sesuai dengan syarat.
 	printf("Masukan tiga karakter (dengan syarat urutan konsonan vokal konsonan):\n");
-	scanf("%c %c %c", &ka, &kb, &kc);
+	scanf(" %c %c %c", &ka, &kb, &kc);
 	
 	// memberi tanda jika yang di masukan oleh users sudah benar.
 	if((ka != 'a') && (ka != 'i') && (ka != 'u') && (ka != 'e') && (ka != 'o')){
