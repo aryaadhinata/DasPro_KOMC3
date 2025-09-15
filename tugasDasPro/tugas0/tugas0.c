@@ -2,7 +2,7 @@
 
 int main(){ //program dimulai
 	char box[100]; //nama variable untuk tipe data char dan berapa banyak indeks yang bisa diisi ke box
-	printf("Kemakom Juara!!!\n"); //output yang dikeluarkan
+	printf("KEMAKOM JUARA!!!\n"); //output yang dikeluarkan
 	scanf("%c", box); //input yang akan diabaikan
 	return 0;
 }
