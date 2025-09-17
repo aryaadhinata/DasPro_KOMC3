@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+	int i, j, k, l;
+	scanf(" %d", &j);
+	
+	for (i = 0; i < 10; i++){
+	printf("im enough %d\n", i);
+	}
+	
+	for (i = 0; i < j; i++){
+	printf("im enough %d\n", i);
+	}
+	
+	k = 0;
+	for (i = 1; i <= j; i++){
+		k += i; 
+	}
+	
+	l = 1;
+	for (i = 1; j >= i; i++){
+		l *= i; 
+	}
+	
+	printf("\n %d", l);
+	printf("\n %d", k);
+	return 0;
+}

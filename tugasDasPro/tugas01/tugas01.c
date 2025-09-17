@@ -2,8 +2,8 @@
 
 /*
 	Saya Mohammad Arya Dhinata dengan NIM 2504992 mengerjakan Tugas Pratikum 1 dalam 
-	mata kuliah dasar dasar pemrogaraman untuk keberkahanNya maka saya tidak melakukan
-	kecurangan seperti yang di spesifikasikan.
+	mata kuliah dasar-dasar pemrogaraman untuk keberkahanNya maka saya tidak melakukan
+	kecurangan seperti yang di spesifikasikan. Aamin
 */
 
 int main(){
@@ -56,10 +56,7 @@ int main(){
 	
 	// meminta masukan jumlah kelompok Fakhri, Daffa, Azmi dan Nurul,
 	// serta berapa banyak listrik yang dibutuhkan untuk ke Isekai.
-	printf("Masukan jumlah mahasiswa yang ikut kelompok Fakhri, Daffa, Azmi dan Nurul\n");
-	printf("Secara beurut:\n");
 	scanf("%d %d %d %d", &fakhri, &daffa, &azmi, &nurul);
-	printf("Masukan daya listrik yang di butuhkan untuk memindahkan satu orang:");
 	scanf("%d", &listrik);
 	
 	// menambah nilai 1 ke Fakhri, Daffa, Azmi dan Nurul karena mereka ketuanya.
@@ -83,11 +80,11 @@ int main(){
 	printf("- Kelompok Nurul: %d mahasiswa\n", nurul);
 	printf("Total: %d Mahasiswa\n\n", total);
 	printf("Jumlah daya listrik yang dibutuhkan: %d Watt\n\n", totalListrik);
-	printf("Saatnya perjalanan menuju Isekai!!!\n");
+	printf("Saatya perjalanan menuju Isekai!!!\n");
 	printf("*-------------------------------------------------------*\n\n\n");
 	printf("*-------------------------------------------------------*\n");
 	printf("     !!!!!  ALAMAK! KITA DISERANG KAUM IBLIS!  !!!!!\n");
-	printf("         !!!!!  SEMUANYA CEPAT KEMBALI!  !!!!!\n");
+	printf("          !!!!!  SEMUANYA CEPAT KEMBALI!  !!!!!\n");
 	printf("*-------------------------------------------------------*\n");
 	printf("Status kelompok:\n");
 	
@@ -96,14 +93,14 @@ int main(){
 		fakhriTerjebak = fakhri;
 		if(fakhri % 3 == 0){
 			fakhriOnline = fakhri;
-			printf("-kelompok Fakhri: Terjebak (Online)\n");
+			printf("- Kelompok Fakhri: Terjebak (Online)\n");
 		}else{
 			fakhriHilang = fakhri;
-			printf("-kelompok Fakhri: Terjebak (Hilang!)\n");
+			printf("- Kelompok Fakhri: Terjebak (Hilang!)\n");
 		}
 	}else{
 		fakhriSelamat = fakhri;
-		printf("-kelompok Fakhri: selamat (Hore!!!)\n");
+		printf("- Kelompok Fakhri: Selamat (Horee!!)\n");
 	}
 	
 	// pengkondisian untuk kondisi kelompok daffa.
@@ -111,14 +108,14 @@ int main(){
 		daffaTerjebak = daffa;
 		if(daffa % 3 == 0){
 			daffaOnline = daffa;
-			printf("-kelompok daffa: Terjebak (Online)\n");
+			printf("- Kelompok Daffa: Terjebak (Online)\n");
 		}else{
 			daffaHilang = daffa;
-			printf("-kelompok daffa: Terjebak (Hilang!)\n");
+			printf("- Kelompok Daffa: Terjebak (Hilang!)\n");
 		}
 	}else{
 		daffaSelamat = daffa;
-		printf("-kelompok daffa: selamat (Hore!!!)\n");
+		printf("- Kelompok Daffa: Selamat (Horee!!)\n");
 	}
 	
 	// pengkondisian untuk kondisi kelompok Azmi.
@@ -126,14 +123,14 @@ int main(){
 		azmiTerjebak = azmi;
 		if(azmi % 3 == 0){
 			azmiOnline = azmi;
-			printf("-kelompok azmi: Terjebak (Online)\n");
+			printf("- Kelompok Azmi: Terjebak (Online)\n");
 		}else{
 			azmiHilang = azmi;
-			printf("-kelompok azmi: Terjebak (Hilang!)\n");
+			printf("- Kelompok Azmi: Terjebak (Hilang!)\n");
 		}
 	}else{
 		azmiSelamat = azmi;
-		printf("-kelompok azmi: selamat (Hore!!!)\n");
+		printf("- Kelompok Azmi: Selamat (Horee!!)\n");
 	}
 	
 	// pengkondisian untuk kondisi kelompok Nurul.
@@ -141,14 +138,14 @@ int main(){
 		nurulTerjebak = nurul;
 		if(nurul % 3 == 0){
 			nurulOnline = nurul;
-			printf("-kelompok nurul: Terjebak (Online)\n\n");
+			printf("- Kelompok Nurul: Terjebak (Online)\n\n");
 		}else{
 			nurulHilang = nurul;
-			printf("-kelompok nurul: Terjebak (Hilang!)\n\n");
+			printf("- Kelompok Nurul: Terjebak (Hilang!)\n\n");
 		}
 	}else{
 		nurulSelamat = nurul;
-		printf("-kelompok nurul: selamat (Hore!!!)\n\n");
+		printf("- Kelompok Nurul: Selamat (Horee!!)\n\n");
 	}	
 	
 	// mengitung total (selamat, terjebak, online, hilang) dari kelompok
@@ -159,7 +156,7 @@ int main(){
 	totalHilang = fakhriHilang + daffaHilang + azmiHilang + nurulHilang;
 	
 	// mengeluarkan nilai jumlah mahasiswa yang selamat, terjebak, online dan hilang.
-	printf("jumlah mahasiswa selamat: %d mahasiswa\n", totalSelamat);
+	printf("Jumlah mahasiswa selamat: %d mahasiswa\n", totalSelamat);
 	printf("Jumlah mahasiswa terjebak: %d mahasiswa:\n", totalTerjebak);
 	printf("    - Online: %d mahasiswa\n", totalOnline);
 	printf("    - Hilang: %d mahasiswa\n\n", totalHilang);
@@ -177,7 +174,7 @@ int main(){
 		printf("Alamak! semua mahasiswa terjebak di dunia lain!!\n");
 		printf("Semoga tidak ada hal buruk menimpa mereka.\n");
 	}else{
-		printf("Alamak! ada %d mahasiswa terjebak di dunia lain!\n", totalTerjebak);
+		printf("Alamak! ada %d mahasiswa tejebak di dunia lain!\n", totalTerjebak);
 		printf("Semoga mereka semua baik-baik saja.\n");
 	}
 	
