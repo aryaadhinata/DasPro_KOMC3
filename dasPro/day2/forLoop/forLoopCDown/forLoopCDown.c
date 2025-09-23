@@ -4,6 +4,7 @@ int main(){
 	int i, j;
 	scanf("%d", &j);
 	
+	// menghitung mundur.
 	for (i = j; i > 0; i--){
 	printf("%d\n", i);
 	}

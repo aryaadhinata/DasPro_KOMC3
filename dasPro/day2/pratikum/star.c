@@ -4,6 +4,7 @@ int main(){
 	int i, j;
 	int baris, kolom;
 	
+	// file yang salah
 	printf("masukan kolom & baris:");
 	scanf(" %d %d", &kolom, &baris);
 	scanf(" %d", &j);

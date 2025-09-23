@@ -4,6 +4,7 @@ int main(){
 	int hari;
 	scanf("%d", &hari);
 	
+	// scanf jika hanya satu baris boleh tidak menggunakan kuurung kurawal.
 	switch(hari){
 		case 1: printf("hari senin"); break;
 		case 2 : {

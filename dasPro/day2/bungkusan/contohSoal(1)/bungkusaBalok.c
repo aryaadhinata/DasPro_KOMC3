@@ -5,7 +5,7 @@ typedef struct{
 }balok;
 
 int main(){
-	
+	// contoh lain penggunaan typedef untuk membungkus
 	balok b;
 	
 	printf("masukan panjang, lebar dan tinggi dari balok:\n");

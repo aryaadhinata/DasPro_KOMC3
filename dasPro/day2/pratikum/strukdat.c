@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// pelajaran pertama tentang typdes dalam struckdat
 typedef struct{
 	int nim;
 	int ipk;

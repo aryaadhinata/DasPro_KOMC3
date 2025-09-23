@@ -5,7 +5,7 @@ typedef struct{
 }pecahan;
 
 int main(){
-	
+	// contoh lain dari penggunaan typdef untuk mengemas variabel
 	pecahan p1, p2, p3;
 	
 	printf("masukan pambilang dan penyebut dari pecahan pertama:\n");
