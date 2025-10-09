@@ -32,7 +32,7 @@ int main(){
 	
 	// pemisahan angka kedua
 	dua.first = dua.pertama*10000/ 10000;
-	dua.last = ((dua.pertama*10000) - (dua.first*10000))/10;
+	dua.last = ((dua.pertama*10000) - (dua.first*10000))/100;
 	
 	// keluaranya
     printf("float: %0.2f\n", dua.pertama);
