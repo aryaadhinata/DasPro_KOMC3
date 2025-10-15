@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main(){
+	// deklarasi variabel
 	int i;
 	int j = 1;
 	char str[1029];
