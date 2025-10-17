@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int CariFPB(int a, int b) {
+int CariFPB(int a, int b) { // fungsi yang akan digunakan untuk menghitung fpb
 	if(b==0){
 		return a;
 	}else {
@@ -9,7 +9,7 @@ int CariFPB(int a, int b) {
 	}
 }
 
-int main(){
+int main(){ // main fungsi
 	int hasil = CariFPB(18, 12);
 	printf("hasil fpb: %d\n", hasil);
 

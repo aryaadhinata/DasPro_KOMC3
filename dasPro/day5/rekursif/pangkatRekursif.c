@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int power(int x,int y){
+int power(int x,int y){ // fungsi yang digunakan untuk menghitung nilai perpangkatan
 	int hasil;
 	if(y==0){
 		return 1;
@@ -12,7 +12,7 @@ int power(int x,int y){
 	return hasil;
 }
 
-int main(){
+int main(){ // main fungsi
 	int hasil = power(2, 3);
 	printf("hasil pangkat: %d\n", hasil);
 

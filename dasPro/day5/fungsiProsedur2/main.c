@@ -15,6 +15,6 @@ int main(){
 		scanf("%d", &kumpulan[i]);
 	}
 
-	tulisArrayInt(b, kumpulan);
+	tulisArrayInt(b, kumpulan); // menggunakan fungsi yang ada di mesin.c
 	return 0;
 }

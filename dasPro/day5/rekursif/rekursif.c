@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void tulis(int n){
+void tulis(int n){ // fungsi tulis yang akan merekursifkan
 	int counter;
 	counter = n;
 	if(counter > 0){
@@ -10,7 +10,7 @@ void tulis(int n){
 	}
 }
 	
-int main(){
+int main(){ // main fungsi
 	tulis(10);
 	return 0;
 }

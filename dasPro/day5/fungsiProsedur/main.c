@@ -1,6 +1,6 @@
-#include "pola.h"
+#include "pola.h" // memanggil file header
 
-int main(){
+int main(){ //bagian main yang akan dilihat oleh user
 int b;
 scanf("%d", &b);
 

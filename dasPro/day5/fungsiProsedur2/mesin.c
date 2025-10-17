@@ -1,5 +1,6 @@
 #include "pola.h"
-void pola(int n){
+
+void pola(int n){ //fungsi di mesin yang akan digunakan di main
 	int i, j;
 	for(i=1;i<=n;i++){
 		for(j=1; j<=n; j++){
@@ -9,7 +10,7 @@ void pola(int n){
 	}
 }
 
-void tulisArrayInt(int n, int arr[n]){
+void tulisArrayInt(int n, int arr[n]){ // fungsi lainnya
 	int i;
 	for(i=0;i<n;i++){
 		printf("%d\n", arr[i]);
