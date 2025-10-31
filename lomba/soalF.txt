@@ -1,0 +1,74 @@
+🧩 Langkah 1 — Cek apakah X di dalam rentang
+
+Kita lihat:
+L=1,R=5,X=4.8
+
+Karena 
+
+1≤4.8≤5, maka masih mungkin mendapatkan rata-rata seperti itu.
+
+🧮 Langkah 2 — Ubah X menjadi pecahan p/q
+
+Kita ubah 4.8 jadi pecahan:
+
+4.8=48/10
+
+Lalu sederhanakan (bagi pembilang dan penyebut dengan 2):
+
+48/10 =24/5
+
+Jadi:
+p=24
+q=5
+
+⚙️ Langkah 3 — Cari k minimum agar jumlah totalnya bulat
+
+Rumus dasar:
+
+rata-rata = k/jumlah nilai
+maka:
+
+jumlah nilai=X×k=(q/p)×k
+
+Agar hasilnya bilangan bulat, kita butuh 
+k×p habis dibagi 
+q.
+Karena gcd(24, 5) = 1 (tidak punya faktor persekutuan selain 1), maka k minimum adalah:
+k=q=5
+
+Artinya, minimal 5 pelanggan yang memberi rating.
+
+🧮 Langkah 4 — Hitung jumlah total nilai (S)
+
+Hitung:
+
+S=X×k=(5 / 24)×5=24
+
+Jadi jumlah semua rating harus 24.
+
+🧱 Langkah 5 — Bangun daftar rating
+
+Kita mau 5 angka (karena k=5) antara 1 dan 5 yang totalnya 24.
+
+Langkah 5.1 — Isi awal dengan semua L
+
+Isi awal:
+[1,1,1,1,1]
+
+Jumlah awal = 
+1+1+1+1+1=5
+
+Langkah 5.2 — Hitung selisih (surplus)
+
+Kita butuh total 24, sementara baru 5.
+Selisih (surplus) = 
+24−5=19
+
+Langkah 5.3 — Naikkan nilai-nilai sampai surplus habis
+
+Setiap elemen bisa dinaikkan maksimal ke R=5, berarti bisa naik 
+R−L=4 poin per elemen.
+
+Maksimum kenaikan total yang bisa kita buat = 
+5×4=20.
+Kita butuh naik 19, masih cukup ✅.
